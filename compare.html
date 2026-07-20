@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>隐私政策 - 文件比较工具</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  background: #f5f5f7;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+  padding: 28px 24px 60px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+.update-date {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 28px;
+}
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+}
+p { margin-bottom: 12px; text-align: justify; }
+ul {
+  margin: 8px 0 16px 20px;
+  list-style: disc;
+}
+li { margin-bottom: 6px; }
+.highlight-box {
+  background: #f0f7ff;
+  border-left: 4px solid #1976d2;
+  padding: 14px 16px;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+.highlight-box strong { color: #1976d2; }
+.contact-block {
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.contact-block p { margin-bottom: 4px; text-align: center; }
+.contact-block a { color: #1976d2; text-decoration: none; }
+.contact-block a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>隐私政策</h1>
+  <p class="update-date">最后更新时间：2026 年 7 月 20 日</p>
+
+  <p>文件比较工具（以下简称"本应用"）尊重并保护您的隐私。本隐私政策旨在向您说明我们如何处理您的信息，请您仔细阅读。</p>
+
+  <div class="highlight-box">
+    <strong>核心原则：</strong>本应用的所有文件比较操作均在设备本地完成，我们不会收集、上传或存储您的任何文件内容。
+  </div>
+
+  <h2>1. 信息收集</h2>
+  <p><strong>本应用不会收集任何个人身份信息。</strong>具体而言：</p>
+  <ul>
+    <li>我们不会收集您的姓名、电子邮件地址、电话号码、位置信息等个人数据。</li>
+    <li>我们不会收集您的文件内容。所有文件比较操作完全在您的设备本地执行，不需要网络连接。</li>
+    <li>我们不会跟踪您的设备标识符（如 IDFA、设备序列号等）。</li>
+    <li>我们不会使用任何分析工具或第三方 SDK 来收集使用数据。</li>
+  </ul>
+
+  <h2>2. 文件访问</h2>
+  <ul>
+    <li>本应用通过 iOS 系统提供的 <code>UIDocumentPicker</code> 让您选择文件。应用仅读取您主动选择的文件内容以进行比较。</li>
+    <li>应用不会在您不知情的情况下访问设备上的其他文件。</li>
+    <li>比较操作完成后，应用不会保留文件的副本。您选择的文件引用仅在应用运行期间存在。</li>
+    <li>本应用支持通过 iTunes 文件共享和"文件"应用访问文件，这些功能仅用于方便您管理文件，应用不会主动扫描或收集这些文件。</li>
+  </ul>
+
+  <h2>3. 网络与数据传输</h2>
+  <ul>
+    <li>本应用的核心文件比较功能完全离线运行，不需要网络连接。</li>
+    <li>应用仅在以下情况下需要网络：加载本隐私政策页面。</li>
+    <li><strong>您的文件内容永远不会被上传到任何服务器。</strong></li>
+  </ul>
+
+  <h2>4. 应用内购买</h2>
+  <ul>
+    <li>本应用提供一次性购买"会员"选项，购买后可解锁全部功能。</li>
+    <li>所有支付通过 Apple 的 StoreKit 系统处理。您的支付信息（如银行卡号、账单地址等）由 Apple 直接处理，本应用无法获取。</li>
+    <li>购买记录仅存储在您的设备本地（通过 <code>UserDefaults</code>），不会发送到我们的服务器。</li>
+    <li>您可以随时通过 iTunes / App Store 设置恢复已购买的会员资格。</li>
+  </ul>
+
+  <h2>5. 数据存储</h2>
+  <ul>
+    <li>本应用在本地存储的唯一数据是您的会员购买状态，用于判断功能权限。</li>
+    <li>会员状态仅以布尔值形式存储在设备的 <code>UserDefaults</code> 中，不包含任何个人身份信息。</li>
+    <li>应用不创建账户，不维护用户数据库，不使用云端存储。</li>
+  </ul>
+
+  <h2>6. 第三方服务</h2>
+  <p>本应用不使用任何第三方分析服务、广告服务或社交媒体 SDK。应用内不包含任何第三方跟踪器。</p>
+
+  <h2>7. 儿童隐私</h2>
+  <p>本应用不会故意收集儿童的个人信息。由于我们不收集任何信息，儿童可以安全使用本应用。</p>
+
+  <h2>8. 隐私政策的变更</h2>
+  <p>我们可能会不时更新本隐私政策。更新后的政策将在本页面发布，并更新页面顶部的"最后更新时间"。如果发生重大变更，我们会在应用内通知您。</p>
+
+  <h2>9. 联系我们</h2>
+  <p>如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
+
+  <div class="contact-block">
+    <p><strong>电子邮件</strong></p>
+    <p><a href="mailto:124335107@qq.com">124335107@qq.com</a></p>
+  </div>
+
+  <p style="text-align: center; color: #999; font-size: 13px; margin-top: 40px;">
+    文件比较工具 v1.0 &mdash; 2026
+  </p>
+</div>
+</body>
+</html>
