@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgeCamera 隐私政策</title>
+<style>
+:root {
+  --text: #1f2430;
+  --muted: #5b6472;
+  --border: #e2e6ee;
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --accent: #2563eb;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.8 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+main { max-width: 880px; margin: 0 auto; padding: 48px 20px 72px; }
+header, section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 26px 32px;
+}
+header { margin-bottom: 16px; }
+section { margin-bottom: 16px; }
+h1 { margin: 6px 0; font-size: 30px; line-height: 1.3; }
+h2 { margin: 0 0 10px; font-size: 20px; line-height: 1.4; }
+p { margin: 0 0 12px; }
+p:last-child { margin-bottom: 0; }
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.updated { margin: 0; color: var(--muted); font-size: 14px; }
+table { width: 100%; border-collapse: collapse; margin: 12px 0 4px; }
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+th { color: var(--muted); font-size: 14px; font-weight: 600; white-space: nowrap; }
+td { font-size: 15px; }
+@media (max-width: 600px) {
+  header, section { padding: 20px; }
+  h1 { font-size: 25px; }
+  table { display: block; overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <p class="eyebrow">AgeCamera</p>
+  <h1>隐私政策</h1>
+  <p class="updated">生效日期：<time datetime="2026-08-01">2026 年 8 月 1 日</time></p>
+</header>
+
+<section>
+  <h2>1. 概述</h2>
+  <p>AgeCamera 是一款在 iOS 设备上通过摄像头或相册选择照片，并使用应用内置的本地人脸检测与年龄估算模型，在设备上估算年龄的应用。本政策适用于 AgeCamera iOS 应用及其相关使用行为。</p>
+  <p>本应用的设计原则是不收集、不上传、不共享照片或年龄结果。您拍摄或选择的图像只会留在您的设备上，用于当前会话的人脸检测与年龄估算。</p>
+</section>
+
+<section>
+  <h2>2. 我们收集的信息</h2>
+  <p>AgeCamera 不收集个人信息，不创建账户，也不通过应用向任何服务器发送数据。</p>
+  <table>
+    <thead>
+      <tr><th>数据类型</th><th>处理方式</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>姓名、联系方式、身份信息</td><td>不收集</td></tr>
+      <tr><td>照片与视频</td><td>仅设备本地处理，不上传</td></tr>
+      <tr><td>位置信息</td><td>不收集</td></tr>
+      <tr><td>广告标识符与分析数据</td><td>不收集</td></tr>
+      <tr><td>网络请求</td><td>应用内不发送业务网络请求</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>3. 相机与相册权限</h2>
+  <p>只有在您主动点击“拍照”或“从相册选择”时，应用才会请求相应权限。</p>
+  <p>相机权限用于拍摄照片。拍摄后的图像不会保存到系统相册，也不会写入应用文档目录，仅用于当前年龄分析流程。相册权限通过 iOS 系统选择器实现，应用只会读取您主动选中的那一张图片。</p>
+  <p>您可以随时在 iOS “设置”中关闭相机或相册权限。关闭权限不会影响已生成并展示的结果，但应用将无法拍摄新照片或选择新图片。</p>
+</section>
+
+<section>
+  <h2>4. 图像与年龄结果的处理</h2>
+  <p>图像分析完全在设备本地完成。应用使用内置的本地人脸检测与年龄估算模型完成分析。分析过程中不涉及云端服务，也不会产生网络上传。</p>
+  <p>图像和年龄结果仅用于当前界面展示；关闭结果页或退出应用后，相关内存数据会随之释放。年龄结果基于模型估算，可能存在误差，仅作参考用途，不用于医疗诊断、法律判断、年龄验证或任何可能影响照片中被估算者本人权益的关键决策，也不构成医学、法律或其他专业建议。</p>
+</section>
+
+<section>
+  <h2>5. 第三方服务</h2>
+  <p>本应用不集成第三方广告 SDK、统计 SDK、崩溃上报 SDK 或任何会接收图片内容的第三方服务。</p>
+</section>
+
+<section>
+  <h2>6. 数据存储与删除</h2>
+  <p>由于本应用不收集个人信息，也没有可被上传或保留的用户照片数据库，因此不存在需要由您申请删除的个人数据。</p>
+  <p>您仍可通过删除应用来移除应用内可能存在的临时状态。系统相册、iCloud 或其他设备数据由 iOS 和您本人控制。</p>
+</section>
+
+<section>
+  <h2>7. 儿童隐私</h2>
+  <p>本应用不面向 13 岁以下儿童，也不会在知情情况下收集儿童的个人信息。如果未成年人需要使用本应用，应在监护人指导下使用。</p>
+</section>
+
+<section>
+  <h2>8. 隐私保护措施</h2>
+  <p>我们采用本地处理、最小权限和最小数据范围的设计来保护隐私。应用不提供照片分享、云备份或公开相册功能，也避免将任何图像内容发送到开发者或第三方服务器。</p>
+</section>
+
+<section>
+  <h2>9. 您的权利</h2>
+  <p>由于本应用不收集个人信息，因此不存在需要访问、更正或删除的个人数据。您仍可以通过 iOS 系统设置管理相机与相册权限，也可以随时卸载应用。</p>
+</section>
+
+<section>
+  <h2>10. 政策变更</h2>
+  <p>如果未来应用功能发生变化并涉及新的数据处理方式，我们会在本页面更新政策并注明新的生效日期。当前版本不收集、不存储、不上传照片。</p>
+</section>
+
+<section>
+  <h2>11. 联系我们</h2>
+  <p>如对本隐私政策有任何疑问，可通过 App Store 中 AgeCamera 页面提供的开发者联系方式与我们联系。联系时无需提供照片或年龄结果。</p>
+</section>
+</main>
+</body>
+</html>
